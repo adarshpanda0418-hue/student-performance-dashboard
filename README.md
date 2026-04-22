@@ -6,15 +6,15 @@ I used it to analyze student marks and get some simple insights.
 
 What this project does
 
-Finds average marks
+-Finds average marks
 
-Shows the topper
+-Shows the topper
 
-Filters students above average
+-Filters students above average
 
-Gives grades based on marks
+-Gives grades based on marks
 
-Shows a simple graph for grade distribution
+-Shows a simple graph for grade distribution
 
 
 🛠️ Tech Used
@@ -35,7 +35,7 @@ pip install pandas matplotlib
 python student_dashboard.py
 
 
-What I learned
+💡What I learned
 
 -Basics of Pandas and DataFrames
 
@@ -46,7 +46,7 @@ How to work with data in Python
 -Uploading a project on GitHub
 
 
-Challenges
+⚡Challenges
 
 -At first I didn’t understand how to apply a function to a column in Pandas, but after trying a few times I got it using .apply().
 
