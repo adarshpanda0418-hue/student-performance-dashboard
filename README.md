@@ -17,42 +17,45 @@ Gives grades based on marks
 Shows a simple graph for grade distribution
 
 
-Tech used
+🛠️ Tech Used
 
-Python
+-Python
 
-Pandas
+-Pandas
 
-Matplotlib
+-Matplotlib
 
 
 How to run
 
-pip install pandas matplotlib
+## ▶️ How to Run
+
+pip install pandas matplotlib 
 
 python student_dashboard.py
 
+
 What I learned
 
-Basics of Pandas and DataFrames
+-Basics of Pandas and DataFrames
 
 How to work with data in Python
 
-Creating simple graphs
+-Creating simple graphs
 
-Uploading a project on GitHub
+-Uploading a project on GitHub
 
 
 Challenges
 
-At first I didn’t understand how to apply a function to a column in Pandas, but after trying a few times I got it using .apply().
+-At first I didn’t understand how to apply a function to a column in Pandas, but after trying a few times I got it using .apply().
 
 
 Future improvements
 
-Use a CSV file instead of hardcoded data
-Add more graphs
-Maybe convert this into a small app
+-Use a CSV file instead of hardcoded data
+-Add more graphs
+-Maybe convert this into a small app
 
 Author
 
