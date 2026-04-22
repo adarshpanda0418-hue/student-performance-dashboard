@@ -1,7 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-# Load data (we’ll later replace with CSV)
 data = {
     "Name": ["A", "B", "C", "D", "E", "F", "G"],
     "Marks": [85, 90, 78, 92, 64, 65, 95],
@@ -20,7 +19,7 @@ def assign_grade(marks):
     else:
         return "D"
 
-# Add grade column
+# this is to add grade column
 df["Grade"] = df["Marks"].apply(assign_grade)
 
 # Analysis
@@ -38,7 +37,7 @@ print(above_avg)
 print("\nFull Data:")
 print(df)
 
-# Visualization
+#for visualization
 df["Grade"].value_counts().plot(kind='bar')
 plt.title("Grade Distribution")
 plt.xlabel("Grades")
